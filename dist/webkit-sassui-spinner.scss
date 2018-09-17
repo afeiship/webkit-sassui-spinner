@@ -1,0 +1,17 @@
+/*webkit-sassui-spinner Start*/
+$webkit-sassui-spinner-options: (
+  size: 2.4em
+) !default;
+
+.webkit-sassui-spinner {
+  $size: map-get(
+    $map: $webkit-sassui-spinner-options,
+    $key: size
+  );
+  font-size: 10px;
+  width: $size;
+  height: $size;
+  background: url(https://ws1.sinaimg.cn/large/006tNbRwgy1fvcdargowcg300w00wq2p.gif) no-repeat;
+  background-size: 100%;
+}
+/*webkit-sassui-spinner End*/

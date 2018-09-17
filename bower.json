@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-spinner",
+  "description": "Spinner for webkit sass",
+  "main": [
+    "dist/webkit-sassui-spinner.css",
+    "dist/webkit-sassui-spinner.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "spinner"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-sassui-spinner",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

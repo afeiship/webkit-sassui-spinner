@@ -1,0 +1,14 @@
+@import "../dist/webkit-sassui-spinner.scss";
+*{
+  margin: 0;
+  padding: 0;
+}
+.test-webkit-sassui-spinner{
+
+  .webkit-sassui-spinner{
+    position: absolute;
+    top: 37.2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

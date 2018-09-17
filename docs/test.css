@@ -1,0 +1,21 @@
+/*webkit-sassui-spinner Start*/
+.webkit-sassui-spinner {
+  font-size: 10px;
+  width: 2.4em;
+  height: 2.4em;
+  background: url(https://ws1.sinaimg.cn/large/006tNbRwgy1fvcdargowcg300w00wq2p.gif) no-repeat;
+  background-size: 100%;
+}
+
+/*webkit-sassui-spinner End*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.test-webkit-sassui-spinner .webkit-sassui-spinner {
+  position: absolute;
+  top: 37.2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
