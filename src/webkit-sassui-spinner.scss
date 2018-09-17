@@ -1,6 +1,7 @@
 /*webkit-sassui-spinner Start*/
 $webkit-sassui-spinner-options: (
-  size: 2.4em
+  size: 2.4em,
+  value: 'https://ws4.sinaimg.cn/large/006tNbRwgy1fvcdkbo352g303k03kq2r.gif'
 ) !default;
 
 .webkit-sassui-spinner {
@@ -8,10 +9,16 @@ $webkit-sassui-spinner-options: (
     $map: $webkit-sassui-spinner-options,
     $key: size
   );
+
+  $value: map-get(
+    $map: $webkit-sassui-spinner-options,
+    $key: value
+  );
+
   font-size: 10px;
   width: $size;
   height: $size;
-  background: url(https://ws1.sinaimg.cn/large/006tNbRwgy1fvcdargowcg300w00wq2p.gif) no-repeat;
+  background: url($value) no-repeat;
   background-size: 100%;
 }
 /*webkit-sassui-spinner End*/
