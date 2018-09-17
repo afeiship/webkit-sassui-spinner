@@ -1,9 +1,9 @@
 /*webkit-sassui-spinner Start*/
 .webkit-sassui-spinner {
   font-size: 10px;
-  width: 2.4em;
-  height: 2.4em;
-  background: url(https://ws1.sinaimg.cn/large/006tNbRwgy1fvcdargowcg300w00wq2p.gif) no-repeat;
+  width: 3.2em;
+  height: 3.2em;
+  background: url("https://ws4.sinaimg.cn/large/006tNbRwgy1fvcdkbo352g303k03kq2r.gif") no-repeat;
   background-size: 100%;
 }
 
